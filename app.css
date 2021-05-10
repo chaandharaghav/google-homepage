@@ -53,9 +53,12 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 70%;
+	width: 70vw;
 	margin: 0 auto;
+	margin-top: 13rem;
 }
+
+/* Search styles */
 
 .search-div {
 	width: 100%;
@@ -78,13 +81,14 @@
 	outline: 0;
 }
 
+/* Button group styles */
+
 .btn-group button {
 	background-color: #f1f1f1;
 	border: none;
 	border-radius: 2px;
 	padding: 0.5rem;
-	margin: 1rem;
-	margin-bottom: 0;
+	margin: 2rem 1rem;
 }
 
 .btn-group button:focus,
@@ -92,6 +96,8 @@
 	outline: 1px solid #d4d4d4;
 	box-shadow: 0px 2px 5px #a5a5a5;
 }
+
+/* Lang list styles */
 
 .lang-list {
 	font-size: 0.9rem;
@@ -101,9 +107,14 @@
 .lang-list ul {
 	display: flex;
 	align-items: baseline;
+	flex-wrap: wrap;
 	list-style-type: none;
 }
 
 .lang-list a {
-	padding: 0.3em;
+	padding: 0.6em;
+}
+
+.lang-list a:first-child {
+	padding-left: 0;
 }
