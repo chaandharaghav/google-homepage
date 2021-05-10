@@ -118,3 +118,18 @@
 .lang-list a:first-child {
 	padding-left: 0;
 }
+
+@media (max-width: 450px) {
+	.container {
+		margin-top: 10rem;
+	}
+	.icon-div {
+		margin-bottom: 2rem;
+	}
+	.btn-group {
+		margin: 2rem 0;
+	}
+	.btn-group button {
+		margin: 0.5rem;
+	}
+}
