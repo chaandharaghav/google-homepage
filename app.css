@@ -3,6 +3,8 @@
 	box-sizing: border-box;
 }
 
+/* Navbar styles */
+
 #mainNavbar {
 	height: 60px;
 	font-size: 0.9rem;
@@ -42,4 +44,14 @@
 #mainNavbar button:focus {
 	background-color: #497fe2;
 	cursor: pointer;
+}
+
+/* Main styles */
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
 }
