@@ -1,4 +1,4 @@
-# rock-paper-scissors
+# google-homepage
 A simple recreation of the google homepage.
 
 What I learned
