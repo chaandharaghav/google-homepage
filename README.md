@@ -1,5 +1,5 @@
 # rock-paper-scissors
-A simple recreation of the google homepage
+A simple recreation of the google homepage.
 
 What I learned
 - how to insert basic elements in HTML
